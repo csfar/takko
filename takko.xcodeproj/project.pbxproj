@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A48B138523FB02BB0037B012 /* EmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48B138423FB02BB0037B012 /* EmployeeViewController.swift */; };
+		A48B138723FB02E40037B012 /* EmployeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48B138623FB02E40037B012 /* EmployeeViewModel.swift */; };
+		A48B138923FB03000037B012 /* EmployeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48B138823FB03000037B012 /* EmployeeModel.swift */; };
+		A48B138B23FB044B0037B012 /* EmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48B138A23FB044B0037B012 /* EmployeeCell.swift */; };
+		A4D44D9A23FAF9C40041BFE9 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D44D9923FAF9C40041BFE9 /* MainCoordinator.swift */; };
 		A4E68D5A23F72657007616E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E68D5923F72657007616E5 /* AppDelegate.swift */; };
 		A4E68D5C23F72657007616E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E68D5B23F72657007616E5 /* SceneDelegate.swift */; };
 		A4E68D5E23F72657007616E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E68D5D23F72657007616E5 /* ViewController.swift */; };
-		A4E68D6123F72657007616E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E68D5F23F72657007616E5 /* Main.storyboard */; };
 		A4E68D6423F72657007616E5 /* takko.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4E68D6223F72657007616E5 /* takko.xcdatamodeld */; };
 		A4E68D6623F7265B007616E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E68D6523F7265B007616E5 /* Assets.xcassets */; };
 		A4E68D6923F7265B007616E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E68D6723F7265B007616E5 /* LaunchScreen.storyboard */; };
 		A4E68D7423F7265B007616E5 /* takkoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E68D7323F7265B007616E5 /* takkoTests.swift */; };
 		A4E68D7F23F7265B007616E5 /* takkoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E68D7E23F7265B007616E5 /* takkoUITests.swift */; };
+		A4E68D9023F72809007616E5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E68D8F23F72809007616E5 /* LoginViewController.swift */; };
+		A4E68D9223F72BDB007616E5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E68D9123F72BDB007616E5 /* LoginViewModel.swift */; };
+		A4E68D9423F72C32007616E5 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E68D9323F72C32007616E5 /* Coordinator.swift */; };
+		A4E68D9723F73279007616E5 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E68D9623F73279007616E5 /* LoginModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A48B138423FB02BB0037B012 /* EmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewController.swift; sourceTree = "<group>"; };
+		A48B138623FB02E40037B012 /* EmployeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewModel.swift; sourceTree = "<group>"; };
+		A48B138823FB03000037B012 /* EmployeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeModel.swift; sourceTree = "<group>"; };
+		A48B138A23FB044B0037B012 /* EmployeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCell.swift; sourceTree = "<group>"; };
+		A4D44D9923FAF9C40041BFE9 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		A4E68D5623F72657007616E5 /* takko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = takko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E68D5923F72657007616E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4E68D5B23F72657007616E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A4E68D5D23F72657007616E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A4E68D6023F72657007616E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4E68D6323F72657007616E5 /* takko.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = takko.xcdatamodel; sourceTree = "<group>"; };
 		A4E68D6523F7265B007616E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4E68D6823F7265B007616E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +63,10 @@
 		A4E68D7A23F7265B007616E5 /* takkoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = takkoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E68D7E23F7265B007616E5 /* takkoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = takkoUITests.swift; sourceTree = "<group>"; };
 		A4E68D8023F7265B007616E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E68D8F23F72809007616E5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A4E68D9123F72BDB007616E5 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A4E68D9323F72C32007616E5 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		A4E68D9623F73279007616E5 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +94,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A48B138023FB01F10037B012 /* EmployeeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A48B138323FB02370037B012 /* View */,
+				A48B138223FB02280037B012 /* ViewModel */,
+				A48B138123FB02190037B012 /* Model */,
+			);
+			path = EmployeeScreen;
+			sourceTree = "<group>";
+		};
+		A48B138123FB02190037B012 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A48B138823FB03000037B012 /* EmployeeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A48B138223FB02280037B012 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A48B138623FB02E40037B012 /* EmployeeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A48B138323FB02370037B012 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A48B138423FB02BB0037B012 /* EmployeeViewController.swift */,
+				A48B138A23FB044B0037B012 /* EmployeeCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A4E68D4D23F72657007616E5 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +152,17 @@
 		A4E68D5823F72657007616E5 /* takko */ = {
 			isa = PBXGroup;
 			children = (
+				A48B138023FB01F10037B012 /* EmployeeScreen */,
+				A4E68D9523F73239007616E5 /* LoginScreen */,
+				A4D44D9923FAF9C40041BFE9 /* MainCoordinator.swift */,
 				A4E68D5923F72657007616E5 /* AppDelegate.swift */,
 				A4E68D5B23F72657007616E5 /* SceneDelegate.swift */,
 				A4E68D5D23F72657007616E5 /* ViewController.swift */,
-				A4E68D5F23F72657007616E5 /* Main.storyboard */,
 				A4E68D6523F7265B007616E5 /* Assets.xcassets */,
 				A4E68D6723F7265B007616E5 /* LaunchScreen.storyboard */,
 				A4E68D6A23F7265B007616E5 /* Info.plist */,
 				A4E68D6223F72657007616E5 /* takko.xcdatamodeld */,
+				A4E68D9323F72C32007616E5 /* Coordinator.swift */,
 			);
 			path = takko;
 			sourceTree = "<group>";
@@ -129,6 +183,40 @@
 				A4E68D8023F7265B007616E5 /* Info.plist */,
 			);
 			path = takkoUITests;
+			sourceTree = "<group>";
+		};
+		A4E68D8C23F727AE007616E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4E68D8F23F72809007616E5 /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4E68D8D23F727C3007616E5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A4E68D9123F72BDB007616E5 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A4E68D8E23F727D7007616E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4E68D9623F73279007616E5 /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4E68D9523F73239007616E5 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A4E68D8C23F727AE007616E5 /* View */,
+				A4E68D8D23F727C3007616E5 /* ViewModel */,
+				A4E68D8E23F727D7007616E5 /* Model */,
+			);
+			path = LoginScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +325,6 @@
 			files = (
 				A4E68D6923F7265B007616E5 /* LaunchScreen.storyboard in Resources */,
 				A4E68D6623F7265B007616E5 /* Assets.xcassets in Resources */,
-				A4E68D6123F72657007616E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,8 +351,17 @@
 			files = (
 				A4E68D6423F72657007616E5 /* takko.xcdatamodeld in Sources */,
 				A4E68D5E23F72657007616E5 /* ViewController.swift in Sources */,
+				A4E68D9223F72BDB007616E5 /* LoginViewModel.swift in Sources */,
+				A48B138923FB03000037B012 /* EmployeeModel.swift in Sources */,
 				A4E68D5A23F72657007616E5 /* AppDelegate.swift in Sources */,
+				A4E68D9023F72809007616E5 /* LoginViewController.swift in Sources */,
+				A48B138B23FB044B0037B012 /* EmployeeCell.swift in Sources */,
+				A4E68D9723F73279007616E5 /* LoginModel.swift in Sources */,
 				A4E68D5C23F72657007616E5 /* SceneDelegate.swift in Sources */,
+				A4D44D9A23FAF9C40041BFE9 /* MainCoordinator.swift in Sources */,
+				A48B138723FB02E40037B012 /* EmployeeViewModel.swift in Sources */,
+				A4E68D9423F72C32007616E5 /* Coordinator.swift in Sources */,
+				A48B138523FB02BB0037B012 /* EmployeeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +397,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A4E68D5F23F72657007616E5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4E68D6023F72657007616E5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A4E68D6723F7265B007616E5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -448,7 +536,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.csfa.takko;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -466,7 +554,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.csfa.takko;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
